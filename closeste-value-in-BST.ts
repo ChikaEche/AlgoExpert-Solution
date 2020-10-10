@@ -16,3 +16,12 @@ function findClosestValueInBst(tree, target) {
     let closestValue = difference.shift()
     return closestValue.data;
 }
+
+let specialArray = (array, multiplier) => {
+  let sum = 0;
+  for(const element of array) {
+    if(Array.isArray(element)) {
+      sum += specialArray(element,++multiplier)
+    }
+  }
+}
