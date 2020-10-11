@@ -1,0 +1,2 @@
+You're giving a node class that has a name and an array of optional children nodes. When put together, nodes form an acyclic tree-loike structure.
+Implementing the deepFirstSearch method on the node class, which takes in an empty array, traverse the tre using the depth-first seach approach (specifically navigating the tree from left to right) stores all of the nodes names in the input array and returns it.
